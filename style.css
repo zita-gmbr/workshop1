@@ -73,29 +73,32 @@ footer {
     margin-left: auto;
 }
 
-.nagivation {
+.navigation {
     display: flex;
     justify-content: flex-end;
 }
 
 .navigation a {
-    padding: 11px 22 px;
+    padding: 11px 22px;
     margin-left: 4px;
  }
+
+.navigation-content {
+    background-color: springgreen;
+}
+
 
 .navigation .logo {
     margin-right: auto;
     margin-left: 0;
 }
 
-a.logo {
-     margin-right: auto;
-     margin-left: 0;
-    }
-
-
 .two-column {
     display: grid;
     grid-template-columns: 1fr 1fr; 
     gap: 54px;
+}
+
+.intro h1, .offline h1, .faq h2 {
+    text-align: left;
 }
