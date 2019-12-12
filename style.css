@@ -13,8 +13,11 @@ header {
 }
 
 p {
+    font-size: 16px;
+    line-height: 1.5;
     margin-bottom: 1.5em;
     text-align: left;
+    font-style: normal;
 }
 h1 {
     font-size: 30px;
@@ -32,7 +35,8 @@ h2 {
 
 h1, h2 {
     color: #172735; 
-    text-align: center
+    text-align: center;
+    padding: 10px;
 }
 
 h3 {
@@ -101,4 +105,12 @@ footer {
 
 .intro h1, .offline h1, .faq h2 {
     text-align: left;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 300 px 300px;
+    padding: 10px;
+    background-color: azure;
 }
